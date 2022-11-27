@@ -8,9 +8,7 @@ import javax.swing.*;
 public class DeterminantCalc
 {
 
-    //private boolean INFO = true;
-
-     private static int max = 1000;     //максимальне значення N
+    private static int max = 1000;     //максимальне значення N
     private static int decimals = 3;    //кількість знаків після коми
 
     private JLabel statusBar;
@@ -221,7 +219,6 @@ public class DeterminantCalc
         }
         float result =  (det / total); // Det(kA)/k=Det(A);
         if(result == -0.0) result = 0;
-        //if (INFO) { System.out.println("Determinant: " + result); }
         return result;
     }
 

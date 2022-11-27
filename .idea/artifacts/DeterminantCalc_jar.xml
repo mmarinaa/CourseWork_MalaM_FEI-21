@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DeterminantCalc:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DeterminantCalc_jar</output-path>
+    <root id="archive" name="DeterminantCalc.jar">
+      <element id="module-output" name="DeterminantCalc" />
+    </root>
+  </artifact>
+</component>
