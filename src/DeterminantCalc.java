@@ -7,7 +7,6 @@ import javax.swing.*;
 
 public class DeterminantCalc
 {
-
     private static int max = 1000;     //максимальне значення N
     private static int decimals = 3;    //кількість знаків після коми
 
