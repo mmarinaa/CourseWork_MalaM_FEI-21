@@ -11,11 +11,12 @@ public class DeterminantCalc
     private static int max = 1000;     //максимальне значення N
     private static int decimals = 3;    //кількість знаків після коми
 
+                                 //візуальні компоненти
     private JLabel statusBar;
     private JTextArea A;
     private JLabel res;
-    private int n = 1;
-    private static NumberFormat nf;
+    private int n = 1;      //допоміжна змінна для створення матриці
+    private static NumberFormat nf; //формат вводу
 
 
     public Component createComponents()
